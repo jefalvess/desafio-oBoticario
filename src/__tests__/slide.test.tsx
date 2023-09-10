@@ -1,8 +1,6 @@
 import React from 'react';
 import { render, screen } from '@testing-library/react';
 import Slide from '../components/views/home/Slide'; 
-import userEvent from '@testing-library/user-event'; 
-
 
 describe('Slide', () => {
   it('renderiza corretamente', () => {
