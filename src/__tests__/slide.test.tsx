@@ -9,9 +9,12 @@ describe('Slide', () => {
     const slideShow = screen.getByRole('slide-show');
     const slideTextInfo = screen.getByRole('slide-text-info');
     const slideTextInfoSlide = screen.getByRole('slide-text-info-slide');
+    const linkButton = screen.getByRole('slide-button-text');
     expect(slideContainer).toBeInTheDocument();
     expect(slideShow).toBeInTheDocument();
     expect(slideTextInfo).toBeInTheDocument();
     expect(slideTextInfoSlide).toBeInTheDocument();
+    expect(linkButton).toBeInTheDocument();
+    expect(linkButton).toHaveAttribute('href');
   });
 });
