@@ -3,9 +3,6 @@ import "@/styles/Slide.global.css";
 import Image from "next/image";
 import React, { useState, useEffect } from "react";
 import imagens from "@/api/data"; // Importa o array de dados do arquivo externo
-import Link from "next/link";
-
-
 
 export default function Slide() {
   
@@ -55,7 +52,7 @@ export default function Slide() {
                 index === currentImageIndex ? "slide-image-active" : "slide-image-not-active"
               }`}
               priority={true}
-              sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+              sizes="100vw"
               fill
             />
           ))}
@@ -83,12 +80,12 @@ export default function Slide() {
         </div>
         <div className="slide-row">
           <div className="slide-col">
-            <Link role="slide-button-text" href={imagens[currentImageIndex]["type"]}
+            <a role="slide-button-text" href={imagens[currentImageIndex]["type"]}
               key={imagens[currentImageIndex]["id"]}
               className="slide-button"
               >
               {imagens[currentImageIndex]["buttonName"]}
-            </Link>
+            </a>
           </div>
         </div>
 
