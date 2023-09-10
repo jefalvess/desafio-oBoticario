@@ -1,0 +1,32 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  font-weight: bold; 
+  color: white;
+}
+
+.back-button {
+  display: inline-block;
+  background-color: #3498db;
+  color: #fff;
+  font-size: 16px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.back-button:hover {
+  background-color: #2980b9;
+}
+
+.back-button:active {
+  transform: translateY(2px);
+  background-color: #217dbb;
+}
+

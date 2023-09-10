@@ -1,0 +1,24 @@
+.alert-background {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 3rem;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba(224, 98, 135);
+  z-index: 1000;
+}
+
+.alert-text {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  text-align: center;
+  font-size: 11px;
+  z-index: 1000;
+
+}
