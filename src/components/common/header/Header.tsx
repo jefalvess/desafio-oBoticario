@@ -1,12 +1,11 @@
 import "@/styles/Header.global.css";
 import Image from "next/image";
-import Link from "next/link";
 
 export default function BodyInfo() {
   return (
     <div role="header-container" className="header-container">
       <div className="header-sub-container">
-        <div className="div1">
+        <div>
           <div role="header-menu" className="header-menu-icon header-hidden-menu">&#9776;</div>
         </div>
         <div className="header-content">
@@ -23,27 +22,27 @@ export default function BodyInfo() {
             </a>
           </div>
           <div role="header-option-1" className="header-options header-hidden-content">
-            <Link href="/Productos" className="myLink">
+            <a href="/Productos" className="myLink">
               PRODUCTOS
-            </Link>
+            </a>
           </div>
           <div role="header-option-2" className="header-options header-hidden-content">
-            <Link href="/Regalos" className="myLink">
+            <a href="/Regalos" className="myLink">
               REGALOS
-            </Link>
+            </a>
           </div>
           <div role="header-option-3" className="header-options header-hidden-content">
-            <Link href="/Marcas" className="myLink">
+            <a href="/Marcas" className="myLink">
               MARCAS
-            </Link>
+            </a>
           </div>
           <div role="header-option-4" className="header-options header-hidden-content">
-            <Link href="/Promociones" className="myLink">
+            <a href="/Promociones" className="myLink">
               PROMOCIONES
-            </Link>
+            </a>
           </div>
           <div role="header-option-5" className="header-options header-hidden-content">
-            <Link
+            <a
               href="/Egeo"
               style={{
                 border: "1px solid white",
@@ -53,27 +52,27 @@ export default function BodyInfo() {
               className="myLink"
             >
               EGEO
-            </Link>
+            </a>
           </div>
           <div role="header-option-6" className="header-options header-hidden-content">
-            <Link href="/Botifavoritos" className="myLink">
+            <a href="/Botifavoritos" className="myLink">
               BOTIFAVORITOS
-            </Link>
+            </a>
           </div>
           <div role="header-option-7" className="header-options header-hidden-content">
-            <Link href="/Lanzamientos" className="myLink">
+            <a href="/Lanzamientos" className="myLink">
               LANZAMIENTOS
-            </Link>
+            </a>
           </div>
           <div role="header-option-8" className="header-options header-hidden-content">
-            <Link href="/Sobrenotros" className="myLink">
+            <a href="/Sobrenotros" className="myLink">
               SOBRE NOSOTROS
-            </Link>
+            </a>
           </div>
           <div role="header-option-9" className="header-options header-hidden-content">
-            <Link href="/Sobrenotros" className="myLink">
+            <a href="/Sobrenotros" className="myLink">
               SOBRE NOSOTROS
-            </Link>
+            </a>
           </div>
         </div>
       </div>

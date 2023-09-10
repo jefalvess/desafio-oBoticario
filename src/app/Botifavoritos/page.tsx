@@ -1,6 +1,4 @@
 import "../../styles/globals.css";
-
-import Link from "next/link";
 import Image from "next/image";
 
 export default function Botifavoritos() {
@@ -14,9 +12,9 @@ export default function Botifavoritos() {
         fill
       />
         <br/>
-      <Link href="/"> 
+      <a href="/"> 
         <button className="back-button">Back home</button>
-      </Link>
+      </a>
 
     </div>
   );

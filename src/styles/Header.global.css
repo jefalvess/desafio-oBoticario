@@ -48,6 +48,7 @@
   position: sticky;
   top: 0;
   z-index: 1000;
+  height: 0rem;
 }
 
 .header-imagem-de-logo {
