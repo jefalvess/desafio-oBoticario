@@ -11,7 +11,7 @@ export default function BodyInfo() {
         </div>
         <div className="header-content">
           <div role="header-logo" className="header-options" style={{ paddingRight: "1rem" }}>
-            <Link href="/">
+            <a href="/">
               <Image
                 className="header-imagem-de-logo"
                 src="https://www.oboticario.com.co/cdn/shop/files/Brand-logo-new_1_360x.webp?v=1671562107"
@@ -20,7 +20,7 @@ export default function BodyInfo() {
                 width={500}
                 height={300}
               />
-            </Link>
+            </a>
           </div>
           <div role="header-option-1" className="header-options header-hidden-content">
             <Link href="/Productos" className="myLink">
